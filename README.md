@@ -1,6 +1,6 @@
 # eslint-config-beezy
 
-This is an shareable ESLint configuration that enforces Beezy's style guide.
+This is a shareable ESLint configuration that enforces Beezy's style guide.
 
 ESLint is a tool for identifying and reporting on patterns found in JavaScript code, with the goal of making code more consistent and avoiding bugs. It's an invaluable tool when working with other engineers.
 
