@@ -16,7 +16,7 @@ Then add the extends to your `.eslintrc`:
 
 ```javascript
 {
-  "extends": "@beezyinc",
+  "extends": "@beezyinc/eslint-config-beezy",
   "rules": {
     // your overrides
   }
@@ -45,7 +45,7 @@ You probably want your editor to lint and fix it for you. Here are the instructi
 2. Now we need to setup some VS Code settings via `Code/File` → `Preferences` → `Settings`. It's easier to enter these settings while editing the `settings.json` file, so click the `{}` icon in the top right corner:
 
 ```js
-// These are all my auto-save configs
+// These are all our auto-save configs
 "editor.formatOnSave": true,
 // turn it off for JS and JSX, we will do this via eslint
 "[javascript]": {
