@@ -1,7 +1,15 @@
 {
   "name": "@beezyinc/eslint-config-beezy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "beezy",
+    "javascript",
+    "styleguide"
+  ],
   "repository": "https://github.com/BeezyInc/eslint-config-beezy.git",
   "author": "Mario Terron <mario.terron@beezy.net>",
   "license": "MIT",
