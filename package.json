@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-beezy",
+  "name": "@beezyinc/eslint-config-beezy",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/BeezyInc/eslint-config-beezy.git",
