@@ -11,15 +11,20 @@ module.exports = {
 		"prettier/prettier": "warn",
 		"no-return-assign": "error",
 		"no-else-return": "warn",
+		"jsx-a11y/accessible-emoji": "warn",
+		"jsx-a11y/anchor-is-valid": "warn",
 		"jsx-a11y/click-events-have-key-events": "warn",
+		"jsx-a11y/label-has-associated-control": "warn",
 		"jsx-a11y/label-has-for": "warn",
 		"jsx-a11y/mouse-events-have-key-events": "warn",
 		"jsx-a11y/no-noninteractive-element-interactions": "warn",
+		"jsx-a11y/no-static-element-interactions": "warn",
 		"react/button-has-type": "error",
 		"react/destructuring-assignment": "off",
 		"react/jsx-filename-extension": "off",
+		"react/jsx-curly-brace-presence": "warn",
+		"react/no-array-index-key": "warn",
 		"react/require-default-props": "warn",
-		"react/sort-comp": "warn",
-		"react/jsx-curly-brace-presence": "warn"
+		"react/sort-comp": "warn"
 	}
 }
