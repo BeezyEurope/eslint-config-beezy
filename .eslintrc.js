@@ -24,6 +24,7 @@ module.exports = {
 		"react/jsx-filename-extension": "off",
 		"react/jsx-curly-brace-presence": "warn",
 		"react/no-array-index-key": "warn",
+		"react/no-multi-comp": "off",
 		"react/require-default-props": "warn",
 		"react/sort-comp": "warn"
 	}
