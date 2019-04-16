@@ -11,6 +11,7 @@ module.exports = {
 		"prettier/prettier": "warn",
 		"no-return-assign": "error",
 		"no-else-return": "warn",
+		"import/no-cycle": "off",
 		"jsx-a11y/accessible-emoji": "warn",
 		"jsx-a11y/anchor-is-valid": "warn",
 		"jsx-a11y/click-events-have-key-events": "warn",
