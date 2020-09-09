@@ -28,6 +28,12 @@ module.exports = {
 		"react/no-array-index-key": "warn",
 		"react/no-multi-comp": "off",
 		"react/require-default-props": "warn",
-		"react/sort-comp": "warn"
+		"react/sort-comp": "warn",
+		"react/jsx-fragments": "off",
+		"react/jsx-props-no-spreading": "off",
+		"react/static-property-placement": "warn",
+		"react/state-in-constructor": "warn",
+		"react/no-deprecated": "warn",
+		"react/no-find-dom-node": "off"
 	}
 }
