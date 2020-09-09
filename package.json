@@ -1,6 +1,6 @@
 {
   "name": "@beezyinc/eslint-config-beezy",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "main": "index.js",
   "keywords": [
     "eslint",
