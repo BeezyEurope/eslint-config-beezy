@@ -5,7 +5,7 @@ module.exports = {
 		"jest": true
 	},
 	"extends": ["airbnb", "prettier", "prettier/react"],
-	"plugins": ["prettier", "import", "react", "jsx-a11y"],
+	"plugins": ["prettier", "import", "react", "jsx-a11y", "react-hooks"],
 	"parser": "babel-eslint",
 	"rules": {
 		"prettier/prettier": "warn",
@@ -34,6 +34,8 @@ module.exports = {
 		"react/static-property-placement": "warn",
 		"react/state-in-constructor": "warn",
 		"react/no-deprecated": "warn",
-		"react/no-find-dom-node": "off"
+		"react/no-find-dom-node": "off",
+		"react-hooks/rules-of-hooks": "error",
+		"react-hooks/exhaustive-deps": "warn",
 	}
 }
