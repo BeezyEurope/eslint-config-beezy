@@ -37,5 +37,8 @@ module.exports = {
 		"react/no-find-dom-node": "off",
 		"react-hooks/rules-of-hooks": "error",
 		"react-hooks/exhaustive-deps": "warn",
+	},
+	"settings": {
+		"import/resolver": "webpack"
 	}
 }
