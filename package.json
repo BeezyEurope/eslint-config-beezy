@@ -1,6 +1,6 @@
 {
   "name": "@beezyinc/eslint-config-beezy",
-  "version": "1.10.0",
+  "version": "1.11.0",
   "main": "index.js",
   "keywords": [
     "eslint",
@@ -17,6 +17,7 @@
     "babel-eslint": "^10.0.1",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.11.0",
+    "eslint-import-resolver-webpack": "0.13.0",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-prettier": "^3.1.4",
@@ -29,7 +30,6 @@
   },
   "devDependencies": {
     "eslint": "^7.8.1",
-    "eslint-import-resolver-webpack": "0.13.0",
     "prettier": "^2.1.1"
   }
 }
