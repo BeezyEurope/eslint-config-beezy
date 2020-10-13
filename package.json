@@ -1,6 +1,7 @@
 {
   "name": "@beezyinc/eslint-config-beezy",
   "version": "1.11.0",
+  "description": "ESLint configuration used by Beezy",
   "main": "index.js",
   "keywords": [
     "eslint",
@@ -25,10 +26,6 @@
     "eslint-plugin-react-hooks": "4.1.2"
   },
   "peerDependencies": {
-    "eslint": "^7.8.1",
-    "prettier": "^2.1.1"
-  },
-  "devDependencies": {
     "eslint": "^7.8.1",
     "prettier": "^2.1.1"
   }
