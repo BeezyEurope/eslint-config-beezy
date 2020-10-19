@@ -5,7 +5,7 @@ module.exports = {
     jest: true,
   },
   extends: ['airbnb', 'prettier', 'prettier/react'],
-  plugins: ['prettier', 'import', 'react', 'jsx-a11y', 'react-hooks'],
+  plugins: ['import', 'react', 'jsx-a11y', 'react-hooks'],
   parser: 'babel-eslint',
   rules: {
     'no-return-assign': 'error',
@@ -36,7 +36,6 @@ module.exports = {
     'react/no-find-dom-node': 'off',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
-    'prettier/prettier': 'error',
   },
   settings: {
     'import/resolver': 'webpack',
