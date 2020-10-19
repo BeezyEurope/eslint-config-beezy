@@ -8,7 +8,7 @@ module.exports = {
   plugins: ["prettier", "import", "react", "jsx-a11y", "react-hooks"],
   parser: "babel-eslint",
   rules: {
-    "prettier/prettier": "warn",
+    "prettier/prettier": "error",
     "no-return-assign": "error",
     "no-else-return": "warn",
     "import/no-cycle": "off",
