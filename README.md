@@ -9,7 +9,7 @@ ESLint is a tool for identifying and reporting on patterns found in JavaScript c
 Install the conventions by running:
 
 ```
-npm install --save-dev prettier eslint @beezyinc/eslint-config-beezy
+npm i --save-dev prettier eslint @beezyinc/eslint-config-beezy
 ```
 
 Then add the extends to your `.eslintrc`:
@@ -23,12 +23,11 @@ Then add the extends to your `.eslintrc`:
 }
 ```
 
-Also add to your `.prettierrc`:
+Also add the extends to your `package.json`:
 
 ```javascript
 {
-    "singleQuote": true,
-    "printWidth": 120
+  "prettier": "./node_modules/@beezyinc/eslint-config-beezy/.prettierrc.js",
 }
 ```
 
