@@ -23,7 +23,7 @@ Then add the extends to your `.eslintrc`:
 }
 ```
 
-Also add the extends to your `package.json`:
+Also extend the prettier config to your `package.json`:
 
 ```javascript
 {
