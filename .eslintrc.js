@@ -39,6 +39,9 @@ module.exports = {
 		"react-hooks/exhaustive-deps": "warn",
 	},
 	"settings": {
-		"import/resolver": "webpack"
+		"import/resolver": "webpack",
+		"react": {
+			"version": "latest"
+		}
 	}
 }
