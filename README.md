@@ -23,7 +23,7 @@ Then add the extends to your `.eslintrc`:
 }
 ```
 
-Then add the extends to your project that uses .sass syntax `stylelint.config.js`:
+Then add the extends to your project that uses `.sass` syntax `stylelint.config.js`:
 
 ```javascript
 {
@@ -34,7 +34,7 @@ Then add the extends to your project that uses .sass syntax `stylelint.config.js
 }
 ```
 
-Then add the extends to your project that uses .scss syntax `stylelint.config.js`:
+Then add the extends to your project that uses `.scss` syntax `stylelint.config.js`:
 
 ```javascript
 {
