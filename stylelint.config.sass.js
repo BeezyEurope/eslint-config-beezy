@@ -5,7 +5,7 @@ module.exports = {
 		'at-rule-empty-line-before': [
 			'always',
 			{
-				except: ['inside-block'],
+				except: 'inside-block',
 				ignoreAtRules: ['after-comment', 'include', 'import', 'keyframes']
 			}
 		],
@@ -34,8 +34,8 @@ module.exports = {
 		'color-named': [
 			'never',
 			{
-				ignore: ['inside-function'],
-				ignoreProperties: ['composes']
+				ignore: 'inside-function',
+				ignoreProperties: 'composes'
 			}
 		],
 		'color-no-invalid-hex': [
@@ -68,11 +68,11 @@ module.exports = {
 		'declaration-colon-space-before': 'never',
 		'declaration-property-value-disallowed-list': [
 			{
-				border: ['none'],
-				'border-top': ['none'],
-				'border-right': ['none'],
-				'border-bottom': ['none'],
-				'border-left': ['none']
+				border: 'none',
+				'border-top': 'none',
+				'border-right': 'none',
+				'border-bottom': 'none',
+				'border-left': 'none'
 			},
 			{
 				message: 'Unexpected value in border. Use zero instead of none',
@@ -174,22 +174,22 @@ module.exports = {
 		'property-no-unknown': [
 			true,
 			{
-				ignoreProperties: ['composes'],
-				ignoreSelectors: [':global']
+				ignoreProperties: 'composes',
+				ignoreSelectors: ':global'
 			}
 		],
 		'property-no-vendor-prefix': true,
 		'rule-empty-line-before': [
 			'always-multi-line',
 			{
-				except: ['first-nested'],
-				ignore: ['after-comment']
+				except: 'first-nested',
+				ignore: 'after-comment'
 			}
 		],
 		'scss/at-extend-no-missing-placeholder': true,
 		'scss/at-function-pattern': /^\@[a-z]+ +([a-z0-9-]+)?(__([a-z0-9]+-?)+)?(--([a-z0-9]+-?)+){0,2}$/,
 		'scss/at-import-no-partial-leading-underscore': true,
-		'scss/at-import-partial-extension-blacklist': ['sass'],
+		'scss/at-import-partial-extension-blacklist': 'sass',
 		'scss/at-mixin-pattern': /^\=[a-z]([a-z0-9-]+)?(__([a-z0-9]+-?)+)?(--([a-z0-9]+-?)+){0,2}$/,
 		'scss/dollar-variable-colon-space-after': 'always',
 		'scss/dollar-variable-colon-space-before': 'never',
