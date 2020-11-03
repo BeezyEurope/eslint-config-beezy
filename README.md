@@ -23,6 +23,28 @@ Then add the extends to your `.eslintrc`:
 }
 ```
 
+Then add the extends to your project that uses `.sass` syntax `stylelint.config.js`:
+
+```javascript
+{
+  "extends": "@beezyinc/eslint-config-beezy/stylelint.config.sass.js",
+  "rules": {
+    // your overrides
+  }
+}
+```
+
+Then add the extends to your project that uses `.scss` syntax `stylelint.config.js`:
+
+```javascript
+{
+  "extends": "@beezyinc/eslint-config-beezy/stylelint.config.scss.js",
+  "rules": {
+    // your overrides
+  }
+}
+```
+
 Also extend the prettier config to your `package.json`:
 
 ```javascript
