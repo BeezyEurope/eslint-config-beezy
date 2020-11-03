@@ -17,26 +17,13 @@ module.exports = {
 		],
 		'at-rule-name-space-after': 'always',
 		'at-rule-no-unknown': null,
-		'at-rule-semicolon-newline-after': [
-			'always',
-			{
-				severity: 'error'
-			}
-		],
 		'at-rule-no-vendor-prefix': [
 			true,
 			{
 				severity: 'error'
 			}
 		],
-		'block-closing-brace-newline-after': [
-			'always',
-			{
-				severity: 'error'
-			}
-		],
 		'block-no-empty': true,
-		'block-opening-brace-newline-after': 'always',
 		'color-hex-case': [
 			'lower',
 			{
@@ -152,12 +139,6 @@ module.exports = {
 			}
 		],
 		'no-eol-whitespace': true,
-		'no-extra-semicolons': [
-			true,
-			{
-				severity: 'error'
-			}
-		],
 		'no-missing-end-of-source-newline': true,
 		'no-unknown-animations': true,
 		'number-leading-zero': 'never',
