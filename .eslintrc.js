@@ -34,7 +34,7 @@ module.exports = {
 		'no-console': ['error', { 'allow': ['warn', 'error', 'info'] }],
 		'no-else-return': 'warn',
 		'no-nested-ternary': 'off',
-		'no-param-reassign': 'off',
+		'no-param-reassign': ["error", { "props": false }],
 		'no-plusplus': 'off',
 		'no-restricted-syntax': 'warn',
 		'no-return-assign': ['error', 'except-parens'],
@@ -65,7 +65,6 @@ module.exports = {
 		'react/no-multi-comp': 'off',
 		'react/require-default-props': 'warn',
 		'react/sort-comp': 'warn',
-		'react/state-in-constructor': 'warn',
 		'react/static-property-placement': ['warn', 'static public field']
 	},
 	'settings': {
