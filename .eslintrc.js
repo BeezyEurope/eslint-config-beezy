@@ -62,7 +62,6 @@ module.exports = {
     'react/no-deprecated': 'warn',
     'react/no-find-dom-node': 'off',
     'react/no-multi-comp': 'off',
-    'react/require-default-props': 'warn',
     'react/sort-comp': 'warn',
     'react/static-property-placement': ['warn', 'static public field']
   },
