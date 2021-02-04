@@ -57,7 +57,6 @@ module.exports = {
     'react/forbid-prop-types': ['error', { forbid: ['object', 'array'] }],
     'react/jsx-curly-brace-presence': 'warn',
     'react/jsx-filename-extension': 'off',
-    'react/jsx-fragments': 'off',
     'react/jsx-props-no-spreading': 'off',
     'react/no-array-index-key': 'warn',
     'react/no-deprecated': 'warn',
@@ -74,7 +73,7 @@ module.exports = {
       }
     },
     react: {
-      version: 'latest'
+      version: '16.13.1'
     }
   }
 }
