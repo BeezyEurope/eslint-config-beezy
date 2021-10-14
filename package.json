@@ -14,21 +14,21 @@
   ],
   "repository": "https://github.com/BeezyInc/eslint-config-beezy.git",
   "dependencies": {
-    "babel-eslint": "^10.0.1",
-    "eslint-config-airbnb": "^18.2.0",
-    "eslint-config-prettier": "^8.3.0",
+    "babel-eslint": "10.0.1",
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-config-prettier": "8.3.0",
     "eslint-import-resolver-webpack": "0.13.1",
     "eslint-plugin-import": "2.25.2",
-    "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-react": "7.12.4",
     "eslint-plugin-react-hooks": "4.2.0",
     "stylelint": "13.13.1",
     "stylelint-order": "4.1.0",
     "stylelint-scss": "3.21.0"
   },
   "peerDependencies": {
-    "eslint": "^7.8.1",
-    "prettier": "^2.1.1"
+    "eslint": "^8.0.1",
+    "prettier": "^2.4.1"
   }
 }
