@@ -42,7 +42,7 @@ module.exports = {
     'no-use-before-define': ['warn', { functions: false, classes: true, variables: false }],
     'no-useless-escape': 'off',
     'no-unused-expressions': [
-      'off',
+      'error',
       {
 			  allowShortCircuit: true,
 			  allowTernary: true
@@ -50,8 +50,8 @@ module.exports = {
     ],
     'prefer-destructuring': ['error', { object: true, array: false }],
     'prettier/prettier': 'warn',
-    'react-hooks/exhaustive-deps': 'warn',
     'react-hooks/rules-of-hooks': 'error',
+		'react-hooks/exhaustive-deps': 'off',
     'react/button-has-type': 'error',
     'react/destructuring-assignment': 'off',
     'react/forbid-prop-types': ['error', { forbid: ['object', 'array'] }],
