@@ -1,6 +1,6 @@
 {
   "name": "@beezyinc/eslint-config-beezy",
-  "version": "2.0.2",
+  "version": "2.0.3-dev.1",
   "description": "ESLint configuration used by Beezy",
   "author": "Beezy Inc.",
   "license": "UNLICENSED",
