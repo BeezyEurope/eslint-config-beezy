@@ -3,6 +3,7 @@
   "version": "2.0.2",
   "description": "ESLint configuration used by Beezy",
   "author": "Beezy Inc.",
+  "license": "UNLICENSED",
   "main": "index.js",
   "keywords": [
     "eslint",
@@ -14,7 +15,7 @@
   ],
   "repository": "https://github.com/BeezyInc/eslint-config-beezy.git",
   "dependencies": {
-    "babel-eslint": "10.1.0",
+    "@babel/eslint-parser": "7.15.8",
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-prettier": "8.3.0",
     "eslint-import-resolver-webpack": "0.13.1",
@@ -30,5 +31,8 @@
   "peerDependencies": {
     "eslint": "^7.32.0",
     "prettier": "^2.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.15.8"
   }
 }
